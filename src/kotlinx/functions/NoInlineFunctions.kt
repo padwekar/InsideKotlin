@@ -11,7 +11,7 @@ inline fun sumAndMultiply(a : Int,b : Int,multiply : (x : Int , y: Int) -> Int) 
     return (a + b) * multiply(a,b)
 }
 
-//Example of non inline modifier
+//Example of noinline modifier
 inline fun subtractAndMultiply(a : Int,b : Int,shuffle : () -> Unit ,noinline multiply : (x : Int , y: Int) -> Int) : Int{ // Expected performance impact of inline is insignificant
     return (a - b) * multiply(a,b)
 }
