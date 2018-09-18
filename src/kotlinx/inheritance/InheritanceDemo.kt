@@ -38,7 +38,6 @@ class Dog(override var color: String) : Animal() {
 
 class Cat : Animal {
 
-    override var rank = 3
 
     constructor(rank : Int,color : String) : super(color){
         this.rank = rank

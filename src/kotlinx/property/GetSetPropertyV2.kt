@@ -1,4 +1,4 @@
-package kotlinx.classes
+package kotlinx.property
 
 class Fruit(var weight : Double){
     val isHeavy = weight > 20   // value will be calculated only once

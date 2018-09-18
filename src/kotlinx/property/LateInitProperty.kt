@@ -1,4 +1,4 @@
-package kotlinx.classes
+package kotlinx.property
 
 lateinit var surname : String
 

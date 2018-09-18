@@ -1,4 +1,4 @@
-package kotlinx.classes
+package kotlinx.property
 
 
     var number : Int = 3

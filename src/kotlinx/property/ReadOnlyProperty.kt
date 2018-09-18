@@ -1,4 +1,4 @@
-package kotlinx.classes
+package kotlinx.property
 
 class ReadLimit(
         var name : String,
@@ -6,7 +6,7 @@ class ReadLimit(
 )
 
 fun main(args : Array<String>){
-    val limit = ReadLimit("Saurabh",25)
+    val limit = ReadLimit("Saurabh", 25)
    // limit.id = 2 //Compilation Error , Id is read only
     limit.name = "Saurabh"
 }
