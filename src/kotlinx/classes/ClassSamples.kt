@@ -39,10 +39,15 @@ class Student constructor(name : String) : Debuggable{
 }
 
 
-class Doctor (val name: String): Debuggable{
+class Doctor (var name: String = "N/A"): Debuggable{
     init {
-        debug("Hi $name")
+      //  debug("Hi $name")
     }
+
+    fun start(){
+        println("Dr.$name is working.")
+    }
+
 }
 
 class Patient(var name: String) : Debuggable{
